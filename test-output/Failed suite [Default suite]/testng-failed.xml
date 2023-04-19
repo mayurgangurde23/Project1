@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="LoginTest.TestClass1">
+        <methods>
+          <include name="EnterCVV"/>
+          <include name="PaymentMethodCard"/>
+          <include name="StartBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="ClickOnProcedtoPay"/>
+          <include name="SelectModerateRiskProfile"/>
+          <include name="EnterExpiryDate"/>
+          <include name="EnterCardNumber"/>
+          <include name="UnlockFullPortfolio"/>
+          <include name="ClickOnProceedtoPay"/>
+        </methods>
+      </class> <!-- LoginTest.TestClass1 -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

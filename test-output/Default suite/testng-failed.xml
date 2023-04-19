@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="LoginTest.TestClass1">
+        <methods>
+          <include name="TearDownTest"/>
+          <include name="SelectBroker"/>
+          <include name="EnterAmount"/>
+          <include name="VerifyProcedtoPayButton"/>
+          <include name="VerifySuccessButton"/>
+          <include name="SetUpTest"/>
+          <include name="SelectCreateMyPortfolio"/>
+          <include name="SelectYear"/>
+          <include name="VerifyPANNumber"/>
+          <include name="ClickOnViewPortFolio"/>
+          <include name="ClickonStartInvesting"/>
+          <include name="VerifyUnlockFullPortfolioutton"/>
+          <include name="Teardown"/>
+          <include name="ClickToPAYButton"/>
+          <include name="VerifyCVV"/>
+          <include name="VerifyDateOfBirth"/>
+          <include name="ClosedDigioWindow"/>
+          <include name="SelectEquityStrategy"/>
+          <include name="VerifyLoginFunctionality"/>
+          <include name="VerifyExpiryDate"/>
+          <include name="ClickonStartInvesting2"/>
+          <include name="SkipSavingCard"/>
+          <include name="VerifySubmitForVerification"/>
+          <include name="SelectQuestions"/>
+          <include name="SelectRiskProfile"/>
+          <include name="SetUp"/>
+          <include name="ConfirmRiskProfile"/>
+          <include name="VerifyCardNumber"/>
+          <include name="SelectPaymentMethodCard"/>
+          <include name="VerifyProceedtoClientAgreement"/>
+          <include name="ClickOnStartInvesting"/>
+          <include name="ChangeMyRiskProfile"/>
+        </methods>
+      </class> <!-- LoginTest.TestClass1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
